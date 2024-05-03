@@ -1,0 +1,4 @@
+,VehicleID,Label,Accuracy,Loss,epoch
+0,Slow_17,Slow,100.0,0.01129253462339154,0.0
+1,Normal_8,Normal,100.0,0.012904898316273694,0.0
+2,Dangerous_5,Dangerous,100.0,0.01950073543045184,0.0
