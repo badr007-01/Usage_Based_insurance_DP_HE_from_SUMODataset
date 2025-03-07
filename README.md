@@ -71,7 +71,32 @@ More info: torchcsprng installation guide
 ### Installing a New Python Version on Ubuntu
 Follow this guide: https://www.malekal.com/installer-python-3-9-ubuntu/
 
+### References
 
+In this work \cite{this_work}, we use the approach based on the DP-SGD algorithms from the paper \cite{abadi2016deep}. An implementation is proposed by Meta AI, called Opacus library \cite{yousefpour2021opacus}.
+``` bash
+@inproceedings{this_work,
+  title={PrivFedProfiling: Privacy-Preserving Federated Profiling Model for Enhanced Usage-Based Insurance Assessment},
+  author={BADREDDINE CHAH, ANIS BKAKRI, ALEXANDRE LOMBARD, ABDELJALIL ABBAS-TURKI, ALEXANDRE BRUNOUD, YAZAN MUALLA, AND REDA YAICH},
+  booktitle={Under Submission, IEEE Access journal},
+  year={2025}
+}
+
+@inproceedings{abadi2016deep,
+  title={Deep learning with differential privacy},
+  author={Abadi, Martin and Chu, Andy and Goodfellow, Ian and McMahan, H Brendan and Mironov, Ilya and Talwar, Kunal and Zhang, Li},
+  booktitle={Proceedings of the 2016 ACM SIGSAC conference on computer and communications security},
+  pages={308--318},
+  year={2016}
+}
+
+@article{yousefpour2021opacus,
+  title={Opacus: User-friendly differential privacy library in PyTorch},
+  author={Yousefpour, Ashkan and Shilov, Igor and Sablayrolles, Alexandre and Testuggine, Davide and Prasad, Karthik and Malek, Mani and Nguyen, John and Ghosh, Sayan and Bharadwaj, Akash and Zhao, Jessica and others},
+  journal={arXiv preprint arXiv:2109.12298},
+  year={2021}
+}
+```
 
 
 
