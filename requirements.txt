@@ -17,8 +17,6 @@ torchvision==0.13.1; sys_platform == "linux"
 torch==1.12.1; sys_platform == "darwin"
 torchvision==0.13.1; sys_platform == "darwin"
 
-# for cpu on windows
-# If use CUDA 11.6 on windows, add this:
-# --find-links https://download.pytorch.org/whl/cu116; sys_platform == "win32"
-torch==1.12.1; sys_platform == "win32"
-torchvision==0.13.1; sys_platform == "win32"
+tqdm==4.67.1;
+pandas==2.2.3;
+seaborn==0.13.2;
