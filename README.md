@@ -2,9 +2,9 @@
 
 1. Install Anaconda
 
-2. Create a Conda environment with Python 3.10.14 or 3.9:
+2. Create a Conda environment with Python 3.9:
    ```sh
-   conda create --name <env_name> python=3.10.14  # or python=3.9
+   conda create --name <env_name> python=3.9
    conda activate <env_name>
    ```
 
